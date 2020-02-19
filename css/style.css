@@ -1,0 +1,353 @@
+/* Custom Stylesheet for Entire Website*/
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+  background-color:  #3949ab; /* dark blue */
+  color: #7D8589; /* grey */
+}
+
+nav ul a{
+  color: #7D8589 !important; /* silver */
+}
+
+nav .brand-logo {
+  color: #444;
+  height: 100%;
+  margin-left: 10px;
+}
+
+nav .button-collapse {
+  margin: 0 10px;
+}
+
+#index-banner{
+  margin-top: 64px;
+}
+
+#index-banner + .container{
+  z-index: -1;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+nav .soc a:hover{
+  fill: #3949ab; /* dark blue */ /*lighter blue*/;
+}
+
+.nav-wrapper.container{
+  width: 100%;
+}
+
+.nav-wrapper.container img{
+  height: 100%;
+  padding: 5px;
+}
+
+.socLi svg{
+  height: 40px;
+  display: none;
+  vertical-align: middle;
+}
+
+.nav-wrapper.container ul.soc{
+  height: 100%;
+  margin-right: 10px;
+}
+
+.nav-wrapper.container ul.soc li{
+  width: 40px;
+  height: 100%;
+}
+
+.nav-wrapper.container ul.soc a{
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  background-color: transparent;
+}
+
+.nav-wrapper.container ul.soc svg{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+header{
+  color: #FFFFFF;
+}
+
+.satyzfydBlue1{
+  color: #3949ab; /* dark blue */ /*lighter blue*/
+}
+
+
+p {
+  line-height: 2rem;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5{
+  color: #FFFFFF;
+}
+
+a#contactLink{
+  color: #CDA349; /* gold */
+  font-weight: 500;
+  background-color: transparent;
+}
+
+a#contactLink:hover{
+  color: #FFFFFF;
+}
+
+.button-collapse {
+  color: #000000;
+}
+
+.button-collapse .material-icons{
+  font-size: 45px;
+  color: #CDA349; /* gold */
+}
+
+.button-collapse .material-icons:hover{
+  color: #3949ab; /* dark blue */ /* lighter blue */
+}
+
+#index-banner .section .container .btn-large{
+  background-color: #CDA349; /* gold */
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #d0b170 !important; /* light gold */
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+.icon-block a{
+  color: #CDA349; /* gold */
+  font-weight: 500;
+}
+
+.icon-block a:hover{
+  color: #FFFFFF;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #3949ab; /* dark blue */
+}
+
+.footer-copyright.indigo.darken-1 {
+  background-color: #FFF !important;
+}
+
+.footer-copyright{
+  height: 100% !important;
+  padding: 10px !important;
+  color: #7D8589 !important; /* grey */
+}
+
+.footer-copyright a:hover{
+  color: #3949ab !important; /* dark blue */
+}
+
+.footer-copyright *{
+  line-height: 30px !important;
+}
+
+.footer-copyright .address{
+  margin-bottom: initial;
+}
+
+.footer-copyright .email a{
+  color: #CDA349 !important; /* gold */
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.footer-copyright .email a:hover{
+  color: #3949ab !important; /* dark blue */
+}
+
+.footer-copyright small a{
+  color: #CDA349 !important; /* gold */
+  font-size: 1rem;
+}
+
+.footerLogo{
+  height: 64px;
+}
+
+.footerLogo a{
+  height: 100%;
+}
+
+.footerLogo img{
+  max-height: 64px;
+  max-width: 100%;
+}
+
+footer a.white-text{
+  color: #CDA349 !important; /* gold */
+}
+
+footer a.white-text:hover{
+  color: #FFFFFF !important;
+}
+
+footer .contactSocial svg{
+  margin-top: 5px;
+}
+
+footer .contactSocial span{
+  display: inline-block;
+}
+
+footer .facebook svg, footer .yelp svg{
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #CDA349;  /* gold */
+  border-radius: 12px;
+  fill: #FFFFFF;
+}
+
+footer .facebook svg:hover, footer .yelp svg:hover{
+  background-color: #3949ab; /* dark blue */ /* satyzfydBlue1 */
+  transition: background-color .5s ease;
+}
+
+
+/* Icon Styling */
+.icon-10:hover, .icon-14:hover, .icon-26:hover, .icon-17:hover{
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.icon-10 {
+  fill: #CDA349; /* gold */
+}
+
+.icon-14 {
+  fill: #CDA349; /* gold */
+}
+
+.icon-26 {
+  fill: #CDA349; /* gold */
+}
+
+.icon-17 {
+  fill: #CDA349; /* gold */
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1085px){
+  .hide-on-med-and-down {
+    display: none !important;
+  }
+  nav a.button-collapse {
+      display: block;
+  }
+  nav .brand-logo{
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner{
+    margin-top: 0;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  nav {
+    position: initial !important;
+  }
+  nav .brand-logo{
+    left: 210px;
+  }
+  .nav-wrapper.container ul.soc li{
+    width: 32px;
+  }
+}
+
+@media only screen and (max-width : 760px) {
+  .footer-copyright .container .right{
+    text-align: center;
+    width: 100%;
+  }
+  .footer-copyright .container .left{
+    clear: both;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  nav .brand-logo{
+    left: 190px;
+  }
+}
+
+@media only screen and (max-width : 520px) {
+  .footer-copyright .container{
+    text-align: center;;
+  }
+  .footer-copyright .container .left{
+    float: none !important;
+  }
+  .address{
+    float: none !important;
+  }
+  .combo{
+    float: none !important;
+  }
+  .nav-wrapper.container ul.soc{
+    display: none;
+  }
+  .socLi svg{
+    display: inline-block;
+  }
+  .socLi a:hover{
+    display: inline-block;
+    fill: #3949ab; /* dark blue */
+    background-color: transparent;
+  }
+}
+
+@media only screen and (max-width : 360px) {
+  h1{
+    font-size: 3.7rem;
+  }
+}

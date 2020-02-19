@@ -1,0 +1,58 @@
+/*Home Page*/
+
+.parallax.image1 img{
+  opacity: 0.5;
+}
+
+.parallax.image2 img{
+  opacity: 0.5;
+}
+
+.parallax.image3 img{
+  opacity: 0.5;
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+  text-align: center;
+}
+
+.icon-block h2 + h5{
+  min-height: 75px;
+}
+
+@media only screen and (max-width : 600px) {
+  .icon-block h2 + h5 {
+    min-height: initial;
+  }
+}
+
+.icon-block li{
+  list-style-type: square !important;
+  list-style-position: inside;
+  color: #FFFFFF;
+  line-height: 2rem;
+  font-size: 16px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* About Us anchor */
+#about:before{
+  display: block;
+  content: "";
+  height: 64px;
+  margin: -64px 0 0;
+}
+
+.section.aboutUs{
+  padding-top: 0;
+}

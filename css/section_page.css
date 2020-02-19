@@ -1,0 +1,208 @@
+/*Section Pages*/
+/* Media Queries */
+@media only screen and (max-width: 992px){
+  .parallax-container .section {
+     position: static;
+  }
+  #index-banner .section .container{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  h1 {
+    font-size: 3.75rem;
+  }
+}
+
+
+/* Banner Image */
+.parallax.sectionImage1 img{
+  opacity: 0.5;
+  width: 100%;
+}
+
+.parallax-container{
+  min-height: initial;
+}
+
+#index-banner + .container{
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+#index-banner + .container p{
+  color: #7D8589; /* grey */
+}
+
+#index-banner + .container .section{
+  width: 70%;
+  margin: auto;
+}
+
+/* Main Section Container */
+h2, h3, h4, h5 {
+  color: #7D8589; /* grey */
+}
+
+p, h5{
+  clear: both;
+}
+
+p + h4, p + h5, ul + h4, ul + h5{
+  padding-top: 32px;
+}
+
+p + ul, ul + ul{
+  margin-top: 0;
+}
+
+.section a{
+  color: #CDA349 !important; /* gold */
+  font-weight: 500;
+}
+
+.section a:hover{
+  color: #3949ab !important; /* dark blue */
+}
+
+.sectContain{
+  max-width: 100%;
+}
+
+#index-banner + .container .icon-block{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.sectionPage ul li{
+  list-style-type: square !important;
+  list-style-position: inside;
+  line-height: 2rem;
+}
+
+/* Registration Page*/
+.sectionPage .yelp svg{
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #CDA349;  /* gold */
+  border-radius: 12px;
+  fill: #FFFFFF;
+}
+
+.sectionPage .yelp svg:hover{
+  background-color: #3979ef; /* satyzfydBlue1 */
+  transition: background-color .5s ease;
+}
+
+h4{
+  clear: both;
+}
+
+/* Testimonial Page*/
+.testimonial .icon-block{
+  font-style: italic;
+}
+
+#index-banner + .container .icon-block img{
+  text-align: center;
+  width: 100%;
+  max-width: 190px;
+}
+
+.icon-block .material-icons{
+  color: #7D8589; /* grey */
+  font-size: 3.56rem;
+}
+
+/* faq page */
+.faq h5.top{
+  padding-top: 0;
+}
+
+.faq ul{
+  background-color: transparent;
+}
+
+/* Contact page */
+#toast-container{
+  position: absolute !important;
+  top: inherit;;
+  right: inherit;
+}
+
+#buttonDiv{
+  position: relative;
+}
+
+.contact p span{
+  display: block;
+}
+
+.contact .buttonDiv{
+  margin: 0;
+}
+
+.contact .contactSocial{
+  margin-top: 30px;
+}
+
+.contact .contactSocial svg{
+  margin-top: 5px;
+}
+
+.contact .contactSocial span{
+  display: inline-block;
+}
+
+.contact .buttonDiv .btn-large{
+  background-color: #CDA349; /* gold */
+}
+
+.rightSide{
+  padding-right: 0 !important;
+}
+
+.rightSide p{
+  clear: none;
+}
+/*# Contact Pate/Form label color #*/
+.input-field label {
+  color: #7D8589; /* grey */
+}
+/* form label focus color */
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field input[type=tel]:focus + label,
+.input-field textarea.materialize-textarea:focus + label{
+  color: #CDA349;  /* gold */
+}
+/* form label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field input[type=tel]:focus,
+.input-field textarea.materialize-textarea:focus   {
+  border-bottom: 1px solid #CDA349;  /* gold */
+  box-shadow: 0 1px 0 0 #CDA349;  /* gold */
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  background-color: grey;
+  border: 1px solid #7D8589; /* grey */
+}
+
+.sectionPage ul.parsley-errors-list.filled{
+  margin-top: -16px;
+}
+
+.sectionPage textarea + ul.parsley-errors-list.filled{
+  margin-top: -25px;
+}
+
+.sectionPage ul.parsley-errors-list.filled li.parsley-required{
+  list-style-type: none !important;
+  color: #cc0000; /*error red*/
+}
